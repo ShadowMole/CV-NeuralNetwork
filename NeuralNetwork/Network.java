@@ -20,7 +20,7 @@ public class Network{
         for(int i = 0; i < input.length - 1; i++){
             input[i] = new Neuron(x);
         }
-        input[input.length - 1] = new ConstantNeuron(x)
+        input[input.length - 1] = new ConstantNeuron(x);
         /*for(int i = 0; i < first.length; i++){
             first[i] = new Neuron(x);
         }
