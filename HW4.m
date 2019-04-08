@@ -1,0 +1,52 @@
+function minMaxes = minMax()
+    for class = 0:3
+        for num = 1:5
+            filename = strcat(num2str(class),'_',num2str(num));
+            image = imread(strcat('Images/', filename,'.png'));
+            image = im2bw(image);
+            img = regionprops(image);
+            % disp("filename: " + filename);
+            centroid = img.Centroid;
+            % disp(centroid);
+           % disp("img: " + img);
+            x = centroid(1);
+            y = centroid(2);
+            structElementSize = 8;
+            se = strel('disk', structElementSize);
+            smallIM = imerode(image, se);
+            peri =  imabsdiff(image, smallIM);
+            minMaxes = zeros(32,2);
+            for i = 1:32
+                minMaxes(i, 1) = 1000;
+                minMaxes(i, 2) = 0;
+            end
+            [rows,cols] = size(peri);
+            for col = 1:cols
+                for row = 1:rows
+                    if(peri(row,col) == 1)
+%                         disp("y: " + y);
+%                         disp("x: " + x);
+                        % from 0 to 360 degrees
+                        angle = atan2d(col-y,row-x) + 180;
+                        disp("angle: " + angle);
+                        index = mod((int64(double(angle)/11.25)),32) +1;
+                        disp("index: " + index);
+                        dist = sqrt((col-y).*(col-y)+(row-x).*(row-x));
+                        if(dist < minMaxes(index,1))
+                            minMaxes(index,1) = dist;
+                        end
+                        if(dist > minMaxes(index,2))
+                            minMaxes(index,2) = dist;
+                        end
+                    end
+                end
+            end
+            fid = fopen( strcat('Data/',filename,'.txt'), 'wt' );
+            for J = 1 : 32
+                for K = 1 : 2
+                    fprintf( fid, '%f\n', minMaxes(J,K));
+                end
+            end
+            fclose(fid);
+        end
+    end
