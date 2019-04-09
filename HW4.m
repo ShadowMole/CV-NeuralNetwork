@@ -52,7 +52,7 @@ function minMaxes = minMax()
             fid = fopen( strcat('Data/',filename,'.txt'), 'wt' );
             for J = 1 : 32
                 for K = 1 : 2
-                    if(minMaxes(J,K) == 0 || minMaxes(J,K) == 2000)
+                    if(minMaxes(J,K) == 0 || minMaxes(J,K) == 3000)
                         disp(strcat(filename,' ', J, ' ', K));
                     end
                     fprintf( fid, '%f,', minMaxes(J,K));
