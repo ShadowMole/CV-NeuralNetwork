@@ -15,10 +15,17 @@ public class Driver {
             ClassLoader classLoader = Driver.class.getClassLoader();
             BufferedReader reader;
             for(int answer = 0; answer < classes.length; answer++) {
-                for (int image = 1; image < 5; image++) {
-                    String filename = "../Data/" + answer + "_" + image + ".txt";
-                    //File file = new File(classLoader.getResource(filename).getFile());
+                for (int image = 1; image <= 5; image++) {
+                    // System.out.println("Working Directory = " + System.getProperty("user.dir"));
+
+                    // for Steven's workspace
+                    // String filename = "../Data/" + answer + "_" + image + ".txt";
+                    // for Jatin's workspace
+                    String filename = "Data/" + answer + "_" + image + ".txt";
+
+                   // File file = new File(classLoader.getResource(filename).getFile());
                     try {
+                        // change back to filename
                         reader = new BufferedReader(new FileReader(filename));
                         try {
                             String s = reader.readLine();
@@ -38,9 +45,14 @@ public class Driver {
                             System.out.println("File Name: " + answer + " " + image + "\nGuess: " + classes[selection] + "\nAnswer: " + classes[answer] + "\nError: " + error);
 
                         }catch(IOException e){
+                            e.printStackTrace();
+                            System.out.println("io excep");
 
                         }
-                    }catch(FileNotFoundException e){
+                    }catch(FileNotFoundException e)
+                    {
+                        e.printStackTrace();
+                        System.out.println("file not found");
 
                     }
                 }
