@@ -87,7 +87,7 @@ public class Network{
         return getSelection();
     }
 
-    public void learn(int correct){
+    public double learn(int correct){
         error = calcError(correct);
         ArrayList<Double> hiddenDelta = new ArrayList<>();
         for(Neuron n : last){
@@ -133,17 +133,22 @@ public class Network{
                 count++;
             }
         }
+        return error;
     }
 
     public double calcError(int correct){
         double sum = 0;
         for(int i = 0; i < outputs.length; i++){
             double diff;
+            double exp;
             if(i == correct){
                 diff = 1 - outputs[i];
+                exp = 1;
             }else{
                 diff = 0 - outputs[i];
+                exp = 0;
             }
+            System.out.println("Class: " + i + " Actual: " + outputs[i] + " Expected: " + exp);
             sum += (.5 * diff * diff);
         }
         return sum;

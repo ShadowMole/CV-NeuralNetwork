@@ -35,7 +35,7 @@ public class Neuron{
     }
 
     public void activation(){            
-        sums = 1 / (1 + Math.exp((-1  * sums) - bias));
+        sums = 1 / (1 + Math.exp((-1  * sums)));
     }
 
     public double selection(){
@@ -43,7 +43,6 @@ public class Neuron{
         activation();
         lastOutput = sums;
         double answer = sums;
-        answer *= 10;
         sums = 0.0;
         return answer;
     }
@@ -53,7 +52,7 @@ public class Neuron{
     }
 
     public double primeActivation(){
-        return (Math.exp(lastInput - bias)) / ((Math.exp(lastInput - bias) + 1) * (Math.exp(lastInput - bias) + 1));
+        return (Math.exp(lastInput)) / ((Math.exp(lastInput) + 1) * (Math.exp(lastInput) + 1));
     }
 
     public double getLastOutput(){
