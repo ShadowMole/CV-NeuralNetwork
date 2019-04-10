@@ -89,7 +89,7 @@ public class Network{
 
     public double learn(int correct){
         error = calcError(correct);
-        ArrayList<Double> hiddenDelta = new ArrayList<>();
+        /*ArrayList<Double> hiddenDelta = new ArrayList<>();
         for(Neuron n : last){
             for(Synapse s : n.getConnections()){
                 s.lastLearning(error);
@@ -124,7 +124,7 @@ public class Network{
             }
         }
         count = 0;*/
-        for(Neuron n : input){
+        /*for(Neuron n : input){
             for(Synapse s : n.getConnections()){
                 if(count == hiddenDelta.size()){
                     count = 0;
@@ -132,9 +132,40 @@ public class Network{
                 s.learning(hiddenDelta.get(count), deltaOutput);
                 count++;
             }
-        }
-        return error;
+        }*/
+        
+		double[] delta3 = new double[output.length];
+		for(int i = 0; i < delta3.length; i++){
+			if(i == correct){
+				delta3[i] = outputs[i] - 1;
+			}else{
+				delta3[i] = outputs[i] - 0;
+			}
+		}
+		for(int i = 0; i < last.length; i++){
+			for(int j = 0; j < last[i].getConnections().size(); j++){
+				last[i].getConnections().get(j).lastLearning(delta3[j]);
+			}
+		}
+		double[] delta2 = new double[last.length];
+		for(int i = 0; i < last.length; i++){
+			delta2[i] = 0;
+			for(int j = 0; j < output.length; j++){
+				delta2[i] += last[i].getConnections().get(j).getLastWeight() * delta3[j];
+			}
+			delta2[i] = delta2[i] * primeActivation(last[i].getLastInput());
+		}
+		for(int i = 0; i < input.length; i++){
+			for(int j = 0; j < input[i].getConnections().size(); j++){
+				input[i].getConnections().get(j).lastLearning(delta2[j]);
+			}
+		}
+		return error;
     }
+	
+	public double primeActivation(double input){
+		return (Math.exp(input)) / ((Math.exp(input) + 1) * (Math.exp(input) + 1));
+	}
 
     public double calcError(int correct){
         double sum = 0;
@@ -142,15 +173,16 @@ public class Network{
             double diff;
             double exp;
             if(i == correct){
-                diff = 1 - outputs[i];
+                diff = outputs[i] - 1;
                 exp = 1;
             }else{
-                diff = 0 - outputs[i];
+                diff = outputs[i] - 0;
                 exp = 0;
             }
-            System.out.println("Class: " + i + " Actual: " + outputs[i] + " Expected: " + exp);
-            sum += (.5 * diff * diff);
+            //System.out.println("Class: " + i + " Actual: " + outputs[i] + " Expected: " + exp);
+            sum += (diff * diff);
         }
+		sum *= (-0.5);
         return sum;
     }
 

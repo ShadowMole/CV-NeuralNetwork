@@ -1,0 +1,999 @@
+Iteration: 0 File Name: 0 1
+Guess: Cat
+Answer: Dog
+Error: -0.6351550200490003
+
+Iteration: 0 File Name: 0 2
+Guess: Bird
+Answer: Dog
+Error: -0.5917558631841487
+
+Iteration: 0 File Name: 0 3
+Guess: Bird
+Answer: Dog
+Error: -0.5132304349152862
+
+Iteration: 0 File Name: 0 4
+Guess: Bird
+Answer: Dog
+Error: -0.48906164587060386
+
+Iteration: 0 File Name: 0 5
+Guess: Bird
+Answer: Dog
+Error: -0.48815476622890036
+
+Iteration: 0 File Name: 1 1
+Guess: Bird
+Answer: Cat
+Error: -0.47787366399862363
+
+Iteration: 0 File Name: 1 2
+Guess: Bird
+Answer: Cat
+Error: -0.48869611152265985
+
+Iteration: 0 File Name: 1 3
+Guess: Bird
+Answer: Cat
+Error: -0.49439798073941155
+
+Iteration: 0 File Name: 1 4
+Guess: Bird
+Answer: Cat
+Error: -0.49726494462195964
+
+Iteration: 0 File Name: 1 5
+Guess: Bird
+Answer: Cat
+Error: -0.4986743573318196
+
+Iteration: 0 File Name: 2 1
+Guess: Bird
+Answer: Bird
+Error: -0.4985309030476716
+
+Iteration: 0 File Name: 2 2
+Guess: Bird
+Answer: Bird
+Error: -0.4992918528497159
+
+Iteration: 0 File Name: 2 3
+Guess: Bird
+Answer: Bird
+Error: -0.49965888387194984
+
+Iteration: 0 File Name: 2 4
+Guess: Bird
+Answer: Bird
+Error: -0.49983573720266616
+
+Iteration: 0 File Name: 2 5
+Guess: Bird
+Answer: Bird
+Error: -0.49992091249054443
+
+Iteration: 0 File Name: 3 1
+Guess: Bird
+Answer: Dolphin
+Error: -0.49998271991358806
+
+Iteration: 0 File Name: 3 2
+Guess: Bird
+Answer: Dolphin
+Error: -0.49999168104890335
+
+Iteration: 0 File Name: 3 3
+Guess: Bird
+Answer: Dolphin
+Error: -0.4999959951871507
+
+Iteration: 0 File Name: 3 4
+Guess: Bird
+Answer: Dolphin
+Error: -0.49999807206874486
+
+Iteration: 0 File Name: 3 5
+Guess: Bird
+Answer: Dolphin
+Error: -0.4999990718914468
+
+Iteration: 1 File Name: 0 1
+Guess: Bird
+Answer: Dog
+Error: -0.4999998289270536
+
+Iteration: 1 File Name: 0 2
+Guess: Bird
+Answer: Dog
+Error: -0.49999991764545404
+
+Iteration: 1 File Name: 0 3
+Guess: Bird
+Answer: Dog
+Error: -0.49999996035455224
+
+Iteration: 1 File Name: 0 4
+Guess: Bird
+Answer: Dog
+Error: -0.4999999809147066
+
+Iteration: 1 File Name: 0 5
+Guess: Bird
+Answer: Dog
+Error: -0.49999999081235424
+
+Iteration: 1 File Name: 1 1
+Guess: Bird
+Answer: Cat
+Error: -0.4999999889015959
+
+Iteration: 1 File Name: 1 2
+Guess: Bird
+Answer: Cat
+Error: -0.4999999946572378
+
+Iteration: 1 File Name: 1 3
+Guess: Bird
+Answer: Cat
+Error: -0.49999999742799894
+
+Iteration: 1 File Name: 1 4
+Guess: Bird
+Answer: Cat
+Error: -0.499999998761841
+
+Iteration: 1 File Name: 1 5
+Guess: Bird
+Answer: Cat
+Error: -0.49999999940395135
+
+Iteration: 1 File Name: 2 1
+Guess: Bird
+Answer: Bird
+Error: -0.49999999934196127
+
+Iteration: 1 File Name: 2 2
+Guess: Bird
+Answer: Bird
+Error: -0.49999999968322073
+
+Iteration: 1 File Name: 2 3
+Guess: Bird
+Answer: Bird
+Error: -0.49999999984750276
+
+Iteration: 1 File Name: 2 4
+Guess: Bird
+Answer: Bird
+Error: -0.49999999992658795
+
+Iteration: 1 File Name: 2 5
+Guess: Bird
+Answer: Bird
+Error: -0.4999999999646595
+
+Iteration: 1 File Name: 3 1
+Guess: Bird
+Answer: Dolphin
+Error: -0.49999999999227884
+
+Iteration: 1 File Name: 3 2
+Guess: Bird
+Answer: Dolphin
+Error: -0.499999999996283
+
+Iteration: 1 File Name: 3 3
+Guess: Bird
+Answer: Dolphin
+Error: -0.49999999999821065
+
+Iteration: 1 File Name: 3 4
+Guess: Bird
+Answer: Dolphin
+Error: -0.4999999999991386
+
+Iteration: 1 File Name: 3 5
+Guess: Bird
+Answer: Dolphin
+Error: -0.49999999999958533
+
+Iteration: 2 File Name: 0 1
+Guess: Bird
+Answer: Dog
+Error: -0.4999999999999236
+
+Iteration: 2 File Name: 0 2
+Guess: Bird
+Answer: Dog
+Error: -0.49999999999996325
+
+Iteration: 2 File Name: 0 3
+Guess: Bird
+Answer: Dog
+Error: -0.49999999999998224
+
+Iteration: 2 File Name: 0 4
+Guess: Bird
+Answer: Dog
+Error: -0.49999999999999145
+
+Iteration: 2 File Name: 0 5
+Guess: Bird
+Answer: Dog
+Error: -0.4999999999999959
+
+Iteration: 2 File Name: 1 1
+Guess: Bird
+Answer: Cat
+Error: -0.499999999999995
+
+Iteration: 2 File Name: 1 2
+Guess: Bird
+Answer: Cat
+Error: -0.49999999999999756
+
+Iteration: 2 File Name: 1 3
+Guess: Bird
+Answer: Cat
+Error: -0.4999999999999989
+
+Iteration: 2 File Name: 1 4
+Guess: Bird
+Answer: Cat
+Error: -0.49999999999999944
+
+Iteration: 2 File Name: 1 5
+Guess: Bird
+Answer: Cat
+Error: -0.4999999999999998
+
+Iteration: 2 File Name: 2 1
+Guess: Bird
+Answer: Bird
+Error: -0.49999999999999967
+
+Iteration: 2 File Name: 2 2
+Guess: Bird
+Answer: Bird
+Error: -0.4999999999999999
+
+Iteration: 2 File Name: 2 3
+Guess: Bird
+Answer: Bird
+Error: -0.4999999999999999
+
+Iteration: 2 File Name: 2 4
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 2 File Name: 2 5
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 2 File Name: 3 1
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 2 File Name: 3 2
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 2 File Name: 3 3
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 2 File Name: 3 4
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 2 File Name: 3 5
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 3 File Name: 0 1
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 3 File Name: 0 2
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 3 File Name: 0 3
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 3 File Name: 0 4
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 3 File Name: 0 5
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 3 File Name: 1 1
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 3 File Name: 1 2
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 3 File Name: 1 3
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 3 File Name: 1 4
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 3 File Name: 1 5
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 3 File Name: 2 1
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 3 File Name: 2 2
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 3 File Name: 2 3
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 3 File Name: 2 4
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 3 File Name: 2 5
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 3 File Name: 3 1
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 3 File Name: 3 2
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 3 File Name: 3 3
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 3 File Name: 3 4
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 3 File Name: 3 5
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 4 File Name: 0 1
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 4 File Name: 0 2
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 4 File Name: 0 3
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 4 File Name: 0 4
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 4 File Name: 0 5
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 4 File Name: 1 1
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 4 File Name: 1 2
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 4 File Name: 1 3
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 4 File Name: 1 4
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 4 File Name: 1 5
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 4 File Name: 2 1
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 4 File Name: 2 2
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 4 File Name: 2 3
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 4 File Name: 2 4
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 4 File Name: 2 5
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 4 File Name: 3 1
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 4 File Name: 3 2
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 4 File Name: 3 3
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 4 File Name: 3 4
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 4 File Name: 3 5
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 5 File Name: 0 1
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 5 File Name: 0 2
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 5 File Name: 0 3
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 5 File Name: 0 4
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 5 File Name: 0 5
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 5 File Name: 1 1
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 5 File Name: 1 2
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 5 File Name: 1 3
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 5 File Name: 1 4
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 5 File Name: 1 5
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 5 File Name: 2 1
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 5 File Name: 2 2
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 5 File Name: 2 3
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 5 File Name: 2 4
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 5 File Name: 2 5
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 5 File Name: 3 1
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 5 File Name: 3 2
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 5 File Name: 3 3
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 5 File Name: 3 4
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 5 File Name: 3 5
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 6 File Name: 0 1
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 6 File Name: 0 2
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 6 File Name: 0 3
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 6 File Name: 0 4
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 6 File Name: 0 5
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 6 File Name: 1 1
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 6 File Name: 1 2
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 6 File Name: 1 3
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 6 File Name: 1 4
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 6 File Name: 1 5
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 6 File Name: 2 1
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 6 File Name: 2 2
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 6 File Name: 2 3
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 6 File Name: 2 4
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 6 File Name: 2 5
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 6 File Name: 3 1
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 6 File Name: 3 2
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 6 File Name: 3 3
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 6 File Name: 3 4
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 6 File Name: 3 5
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 7 File Name: 0 1
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 7 File Name: 0 2
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 7 File Name: 0 3
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 7 File Name: 0 4
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 7 File Name: 0 5
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 7 File Name: 1 1
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 7 File Name: 1 2
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 7 File Name: 1 3
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 7 File Name: 1 4
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 7 File Name: 1 5
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 7 File Name: 2 1
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 7 File Name: 2 2
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 7 File Name: 2 3
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 7 File Name: 2 4
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 7 File Name: 2 5
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 7 File Name: 3 1
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 7 File Name: 3 2
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 7 File Name: 3 3
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 7 File Name: 3 4
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 7 File Name: 3 5
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 8 File Name: 0 1
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 8 File Name: 0 2
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 8 File Name: 0 3
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 8 File Name: 0 4
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 8 File Name: 0 5
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 8 File Name: 1 1
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 8 File Name: 1 2
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 8 File Name: 1 3
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 8 File Name: 1 4
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 8 File Name: 1 5
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 8 File Name: 2 1
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 8 File Name: 2 2
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 8 File Name: 2 3
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 8 File Name: 2 4
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 8 File Name: 2 5
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 8 File Name: 3 1
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 8 File Name: 3 2
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 8 File Name: 3 3
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 8 File Name: 3 4
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 8 File Name: 3 5
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 9 File Name: 0 1
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 9 File Name: 0 2
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 9 File Name: 0 3
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 9 File Name: 0 4
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 9 File Name: 0 5
+Guess: Bird
+Answer: Dog
+Error: -0.5
+
+Iteration: 9 File Name: 1 1
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 9 File Name: 1 2
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 9 File Name: 1 3
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 9 File Name: 1 4
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 9 File Name: 1 5
+Guess: Bird
+Answer: Cat
+Error: -0.5
+
+Iteration: 9 File Name: 2 1
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 9 File Name: 2 2
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 9 File Name: 2 3
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 9 File Name: 2 4
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 9 File Name: 2 5
+Guess: Bird
+Answer: Bird
+Error: -0.5
+
+Iteration: 9 File Name: 3 1
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 9 File Name: 3 2
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 9 File Name: 3 3
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 9 File Name: 3 4
+Guess: Bird
+Answer: Dolphin
+Error: -0.5
+
+Iteration: 9 File Name: 3 5
+Guess: Bird
+Answer: Dolphin
+Error: -0.5

@@ -21,8 +21,11 @@ public class Synapse{
     }
 
     public void lastLearning(double error){
-        double deltaWeight = first.getLastOutput() * last.getDeltaOutput(error);
+        /*double deltaWeight = first.getLastOutput() * last.getDeltaOutput(error);
         lastWeight = weights;
+        weights += deltaWeight;*/
+		double deltaWeight = -1*(activation(first.getLastInput()));
+		lastWeight = weights;
         weights += deltaWeight;
     }
 
@@ -42,4 +45,8 @@ public class Synapse{
     public double getHiddenDelta(){
         return lastWeight;
     }
+	
+	public double activation(double input){
+		return  1 / (1 + Math.exp((-1  * input)));
+	}
 }

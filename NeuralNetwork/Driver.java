@@ -9,7 +9,8 @@ public class Driver {
         classes[2] = "Bird";
         classes[3] = "Dolphin";
         Network brain = new Network(64,4);
-        for(int times = 0; times < 100; times++) {
+		int correct = 0;
+        for(int times = 0; times < 10; times++) {
             //Get image
             //Get correct class as answer
             ClassLoader classLoader = Driver.class.getClassLoader();
@@ -19,9 +20,9 @@ public class Driver {
                     // System.out.println("Working Directory = " + System.getProperty("user.dir"));
 
                     // for Steven's workspace
-                    // String filename = "../Data/" + answer + "_" + image + ".txt";
+                     String filename = "../Data/" + answer + "_" + image + ".txt";
                     // for Jatin's workspace
-                    String filename = "Data/" + answer + "_" + image + ".txt";
+                   // String filename = "Data/" + answer + "_" + image + ".txt";
 
                    // File file = new File(classLoader.getResource(filename).getFile());
                     try {
@@ -40,9 +41,16 @@ public class Driver {
                                 }
                             }
                             int selection = brain.makeDecision(input, max);
+							if(selection == answer){
+								correct++;
+							}
                             //Do error correctly
                             double error = brain.learn(answer);
-                            System.out.println("File Name: " + answer + " " + image + "\nGuess: " + classes[selection] + "\nAnswer: " + classes[answer] + "\nError: " + error);
+								System.out.println("Iteration: " + (times) 
+								+ " File Name: " + answer + " " + image 
+								+ "\nGuess: " + classes[selection] 
+								+ "\nAnswer: " + classes[answer] 
+								+ "\nError: " + error + "\n");
 
                         }catch(IOException e){
                             e.printStackTrace();
