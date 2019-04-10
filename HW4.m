@@ -7,11 +7,15 @@ function minMaxes = minMax()
             image = imread(strcat('Images/', filename,'.png'));
             subplot(4,10,imnum);
             imshow(image, []);
+            title(filename);
+            
             imnum = imnum + 1;
             image = ~(im2bw(image));
             img = regionprops(image);
             subplot(4,10,imnum);
+            
             imshow(image, []);
+            title(filename);
             imnum = imnum + 1;
             % disp("filename: " + filename);
             centroid = img.Centroid;
@@ -46,6 +50,7 @@ function minMaxes = minMax()
                         if(dist > minMaxes(index,2))
                             minMaxes(index,2) = dist;
                         end
+                        
                     end
                 end
             end
